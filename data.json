@@ -1,0 +1,22 @@
+{
+    "questions":[
+            {
+              "id": "1",
+              "name": "bułka",
+              "kcal": 600,
+              "protein": 30,
+              "carb": 60,
+              "fat": 6,
+              "img": "img1.jpg"
+            },
+            {
+              "id": "2",
+              "name": "pizza",
+              "kcal": 900,
+              "protein": 20,
+              "carb": 80,
+              "fat": 20,
+              "img": "img2.jpg"
+            }
+        ]
+    }
