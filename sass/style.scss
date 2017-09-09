@@ -1,5 +1,6 @@
 body {
     margin:0;
+    height: 100%;
 }
 
 canvas {
@@ -7,12 +8,11 @@ canvas {
     margin:40px auto;
     width:100%;
     max-width:1000px;
-    background:#efefef;
 }
 
 button {
     border:none;
-    background:#1D5F99;
+    background:#222;
     color:#fff;
     padding:10px 20px;
     display:table;

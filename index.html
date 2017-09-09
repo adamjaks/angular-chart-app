@@ -8,9 +8,8 @@
     <title>Angular Chart App</title>
 </head>
 <body ng-app="chartApp" ng-controller="chartController">
-    <canvas></canvas>
-    <button ng-click="test()">Generuj wykres</button>
-    {{result}}
+    <canvas ng-data={{data}}></canvas>
+    <button ng-click="run()">Generuj wykres</button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
