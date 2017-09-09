@@ -9,7 +9,7 @@ chartApp.controller('chartController', function($scope, chartService, $http) {
 chartApp.service('chartService', ['$http', function($scope,$http) {
 
     this.fetchJSON = function($scope,$http) {
-        $http.get('http://localhost/angular-chart-app/data.json').then(function(response) {
+        $http.get('https://adamjaks.github.io/angular-chart-app/data.json').then(function(response) {
 
             //dane w data.json zapisane sa jako obiekt w strukturze: "label1" : value, "label2" : value, 
             //kod umozliwia swobodne dodawanie nowych danych
